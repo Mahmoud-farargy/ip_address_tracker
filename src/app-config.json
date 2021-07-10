@@ -1,0 +1,6 @@
+{
+    "ipify": "https://geo.ipify.org/api",
+    "name": "Ip Tracker",
+    "author": "Mahmoud Farargy",
+    "description": "Search any IP address and know where it is located"
+}

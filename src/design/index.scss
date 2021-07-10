@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    // shadows
+    --box-shaodow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+// animations
+.spin-anim {
+    animation: spin ease 1000ms infinite;
+}
+@keyframes spin {
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+// fade
+.fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 1s;
+  }
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+}
