@@ -4,7 +4,8 @@ node_modules
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
-
+# secret keys
+/src/info.js
 
 # local env files
 .env.local
